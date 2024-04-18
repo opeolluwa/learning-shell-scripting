@@ -1,0 +1,40 @@
+#!/bin/bash
+
+
+#:Title         : Exercise 1, chapter 1
+#: Date         : 2024-04-01
+#: Author       : Adeoye Adefemi 
+#: Version      : 1.0.0
+#: Description  : (1) Write a script that creates a directory called bpl inside     $HOME. Populate this directory with two subdirectories, bin and scripts. (2) Write a script to create the “Hello, World!” script, hw, in $HOME/bpl/bin/; make it executable; and then execute it.
+#: Option       : None 
+
+
+# create the dir 
+mkdir $HOME/bpl
+
+# se variables 
+DIR="$HOME/bpl"
+
+# exercise one
+mkdir "$DIR/bin" "$DIR/scripts"
+
+# write the following content to the file 
+echo "
+#!/bin/bash
+#: Title        : Hello, World 
+#: Date         : 2024-04-18
+#: Author       : Adeoye Adefemi 
+#: Version      : 1.0.0
+#: Description  : Hello, World
+#: Options      : None 
+
+
+# prinf print argument/string in the specified format
+printf \"%s\n\" \"Hello World\";
+" > "$DIR/bin/hw"
+
+# make the file executable 
+chmod +x $DIR/bin/hw
+
+# run the command 
+$DIR/bin/hw

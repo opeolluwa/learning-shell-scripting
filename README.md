@@ -28,4 +28,18 @@ echo "echo Hello, World!" > bin/hw
 ```
 
 # 1.0 Hello World
-See [bin/hw](./bin/hw)
+
+A Shell script must begin with the interpreter, typically, this is usually `#!/bin/bash`, this can also be `#!/bin/zsh`, ``#!/bin/csh`, etc.
+
+The script must contain the following fields,
+
+- Title
+- Date - Date the shell was written/last modified
+- Author - Name of the Authors
+- Version - Versioning
+- Options - the parameter which may be passed to the shell
+
+Note that this are provided for human readers/ future maintainers 
+
+
+See [bin/hw](./bin/hw) for an updated Hello World program 

@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 #: Title    : Hello, World 
 #: Date     : 2024-04-18
 #: Author   : Adeoye Adefemi 
@@ -6,4 +6,5 @@
 #: Options  : None 
 
 
+# prinf print argument/string in the specified format
 printf "%s\n" "Hello World";
