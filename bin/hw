@@ -1,0 +1,9 @@
+#!/bin/zsh
+#: Title    : Hello, World 
+#: Date     : 2024-04-18
+#: Author   : Adeoye Adefemi 
+#: Version  : 1.0.0
+#: Options  : None 
+
+
+printf "%s\n" "Hello World";
