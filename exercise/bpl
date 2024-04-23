@@ -29,7 +29,7 @@ echo "
 #: Options      : None 
 
 
-# prinf print argument/string in the specified format
+# printf print argument/string in the specified format
 printf \"%s\n\" \"Hello World\";
 " > "$DIR/bin/hw"
 

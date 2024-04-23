@@ -1,0 +1,25 @@
+#!/bin/bash
+
+
+
+#: Title         : Reading Input and Printing output 
+#: Date          : 2024-18-04 
+#: Author:       : Adeoye Adefemi 
+#: Version        : 1.0.0
+#: Description    : Reading Positional arguments and working with variables 
+#: Options         : Varying 
+
+
+printf "%s\n" "You passed $1";
+
+
+
+# print all the positional arguments value
+printf "%s, " "you passed $@";
+
+# print the total number 
+printf "%s," "The last index of the pass argument is $#";
+
+
+# the path of the script 
+ printf "%s\n" "the script is runnin on $0"
